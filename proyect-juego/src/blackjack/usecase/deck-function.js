@@ -9,7 +9,7 @@ export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
         }
     }
 
-    for( let tipo of tipos ) {
+    for( let tipo of tiposDeCarta ) {
         for( let esp of tiposEspeciales ) {
             deck.push( esp + tipo);
         }
